@@ -11,6 +11,22 @@
     width: 405px;
 }
 
+.layout {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #000000;
+    z-index: 11;
+    display: none;
+}
+
+.layout_open {
+    opacity: 0;
+    display: block;
+}
+
 .profile-menu_open {
     right: 4.2%;
     display: block;

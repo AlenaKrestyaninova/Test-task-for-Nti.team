@@ -3,7 +3,7 @@
     align-items: center;
     width: 100%;
     min-height: 123px;
-    position: relative;
+    /* position: relative; */
 }
 
 /* Медиа-запрос для ширины 320px*/
