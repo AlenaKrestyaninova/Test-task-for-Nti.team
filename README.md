@@ -21,4 +21,4 @@
 7. Семантическая верстка без использования заголовков h1-h6 (по заданию) Присутствуют и используются по назначению элементы header, main, footer, section.
 8. Страничка не является кросс-браузерной, однако работает в браузерах Firefox, Google Chrome и Yandex Browser
 
-Для просмотра проекта необходимо перейти по ссылке: [https://alenakrestyaninova.github.io/mesto/]
+Для просмотра проекта необходимо перейти по ссылке: [https://alenakrestyaninova.github.io/Test-task-for-Nti.team/]
