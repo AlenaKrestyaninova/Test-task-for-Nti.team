@@ -1,0 +1,45 @@
+.button {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.button__arrow {
+    width: 55px;
+    height: 55px;
+    background-color: #33A9FF;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    line-height: 55px;
+    font-family: 'Circe';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18.7429px;
+}
+
+.button__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 0;
+}
+
+@media screen and (max-width:767px) {
+    .button {
+        gap: 15px;
+    }
+    .button__arrow {
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+    }
+    .button__text {
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,19 @@
+.article__text-content {
+    background: url(../../../images/news__mask.svg) no-repeat top right, url(../../../images/news__small_mask.svg) no-repeat top 24px right 12.91px;
+    margin-top: 219px;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+/* Медиа-запрос для ширины 768px*/
+@media all and (max-width:1023px) {
+    .article__text-content {
+        padding-left: 20px;
+    }
+}
+
+@media all and (max-width:767px) {
+    .article__text-content {
+        margin-top: 151px;
+    }
+}

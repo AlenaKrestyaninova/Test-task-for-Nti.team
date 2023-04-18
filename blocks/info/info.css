@@ -1,0 +1,9 @@
+.info {
+    padding: 100px 127px 111px 100px;
+}
+
+@media all and (max-width:1279px) {
+    .info {
+        padding: 101px 30px 60px;
+    }
+}

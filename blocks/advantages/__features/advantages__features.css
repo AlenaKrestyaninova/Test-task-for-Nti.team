@@ -1,0 +1,21 @@
+.advantages__features {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 27px;
+}
+
+@media all and (max-width:1279px) {
+    .advantages__features {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
+@media all and (max-width:767px) {
+    .advantages__features {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

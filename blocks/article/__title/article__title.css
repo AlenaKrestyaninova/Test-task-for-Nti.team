@@ -1,0 +1,19 @@
+.article__title {
+    margin-top: 0;
+    margin-bottom: 11px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 130%;
+    max-width: 268px;
+    padding-top: 24px;
+}
+
+/* Медиа-запрос для ширины 320px*/
+@media all and (max-width:767px) {
+    .article__title {
+        margin-bottom: 10px;
+        line-height: 100%;
+        padding-top: 21px;
+    }
+}

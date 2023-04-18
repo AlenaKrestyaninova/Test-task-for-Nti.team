@@ -1,0 +1,13 @@
+.news__heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* Медиа-запрос для ширины 768px*/
+@media all and (max-width:1023px) {
+    .news__heading {
+        flex-direction: column;
+    }
+}

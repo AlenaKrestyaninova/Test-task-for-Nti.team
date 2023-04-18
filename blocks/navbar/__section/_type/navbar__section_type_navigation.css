@@ -1,0 +1,22 @@
+.navbar__section_type_navigation {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    text-decoration: none;
+    padding: 0;
+    gap: 45px;
+}
+
+/* Медиа-запрос для ширины 1024px*/
+@media screen and (max-width:1279px) {
+    .navbar__section_type_navigation {
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width:1023px) {
+    .navbar__content .navbar__section_type_navigation {
+        display: none;
+    }
+}

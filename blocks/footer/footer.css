@@ -1,0 +1,17 @@
+.footer {
+    background: no-repeat  top 133px right 0 url(../../images/footer__bgi.png);
+}
+
+.footer__content {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+}
+
+/* Медиа-запрос для ширины 320px*/
+@media screen and (max-width:767px) {
+    .footer__content {
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+}

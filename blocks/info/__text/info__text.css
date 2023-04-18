@@ -1,0 +1,15 @@
+.info__text {
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    padding-top: 8px;
+}
+
+@media all and (max-width:767px) {
+    .info__text {
+        font-size: 18px;
+        padding-top: 0;
+    }
+}

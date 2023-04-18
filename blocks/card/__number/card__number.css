@@ -1,0 +1,13 @@
+.card__number {
+    font-style: normal;
+    font-weight: 100;
+    font-size: 25px;
+    line-height: 150%;
+}
+
+@media screen and (max-width:767px) {
+    .card__number {
+        font-size: 20px;
+        line-height: 150%;
+    }
+}

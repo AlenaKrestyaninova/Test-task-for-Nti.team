@@ -1,0 +1,10 @@
+.request__subtitle {
+    color: #FFFFFF;
+    margin-top: 18px;
+}
+
+@media all and (max-width:767px) {
+    .request__subtitle {
+        margin-top: 15px;
+    }
+}

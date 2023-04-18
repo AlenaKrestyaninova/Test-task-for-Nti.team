@@ -1,0 +1,12 @@
+.news__subtitle {
+    margin-top: 25px;
+}
+
+/* Медиа-запрос для ширины 768px*/
+@media all and (max-width:1023px) {
+    .news__subtitle {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        line-height: 150%;
+    }
+}

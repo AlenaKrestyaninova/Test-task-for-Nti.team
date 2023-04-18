@@ -1,0 +1,17 @@
+.feature {
+    background: url(../../images/advantages__card-decoration.svg) no-repeat top right #292D32;
+    border-radius: 18px;
+    padding: 30px 30px 35px 30px;
+    color: #FFFFFF;
+    font-family: 'Euclid Circular A';
+    font-style: normal;
+}
+
+@media screen and (max-width:767px) {
+    .feature {
+        border-radius: 10px;
+        padding: 15px 15px 15px 15px;
+        background-size: 121px 64px;
+        background-position: top right -12px;
+    }
+}

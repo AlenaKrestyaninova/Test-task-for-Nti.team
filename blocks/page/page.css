@@ -1,0 +1,22 @@
+.page {
+    margin: 0 auto;
+    font-family: 'Roboto', Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #292D32;
+    background-color: #fff;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.page__content {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+/* Медиа-запрос для ширины 1024px (меньше 1440px)
+@media all and (max-width:1439px) {
+    .page {
+        max-width: 100%;
+    }
+} */

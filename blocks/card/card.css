@@ -1,0 +1,15 @@
+.card {
+    border-radius: 20px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.catalog__cards .card:nth-child(2n) {
+    background-color: #F2F2F2;
+}
+
+@media screen and (max-width:767px) {
+    .card {
+        border-radius: 10px;
+    }
+}

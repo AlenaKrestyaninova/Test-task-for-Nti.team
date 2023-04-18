@@ -1,0 +1,14 @@
+.advantages__subtitle {
+    margin-top: 37px;
+    margin-bottom: 41px;
+}
+
+/* Медиа-запрос для ширины 320px*/
+@media screen and (max-width:767px) {
+    .advantages__subtitle {
+        margin-top: 27px;
+        margin-bottom: 30px;
+        line-height: 150%;
+        max-width: 90%;
+    }
+}

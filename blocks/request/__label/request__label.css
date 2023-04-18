@@ -1,0 +1,21 @@
+.request__label {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(242, 242, 242, 0.7);
+    position: absolute;
+    left: 23px;
+    top: -13px;
+    display: inline-block;
+    background-color: #292D32;
+}
+
+@media all and (max-width:767px) {
+    .request__label {
+        font-size: 15px;
+        line-height: 1.33;
+        left: 23px;
+        top: -10px;
+    }
+}

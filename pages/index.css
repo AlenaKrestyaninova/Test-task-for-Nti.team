@@ -1,0 +1,128 @@
+@import url(../vendor/normalize.css);
+@import url(../fonts/fonts.css);
+@import url(../blocks/body/_noscroll/body_noscroll.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/page/__section/page__section.css);
+
+/* блок title*/
+@import url(../blocks/title/title.css);
+/* блок subtitle*/
+@import url(../blocks/subtitle/subtitle.css);
+/* блок button*/
+@import url(../blocks/button/button.css);
+
+
+/* Раздел header*/
+@import url(../blocks/header/header.css);
+/* блок logo*/
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/_place/logo_place_header.css);
+/* блок navbar*/
+@import url(../blocks/navbar/navbar.css);
+@import url(../blocks/navbar/__content/navbar__content.css);
+@import url(../blocks/navbar/__section/_type/navbar__section_type_navigation.css);
+@import url(../blocks/navbar/__section/_type/navbar__section_type_icons.css);
+@import url(../blocks/navbar/__icons-list/navbar__icons-list.css);
+@import url(../blocks/navbar/__link/navbar__link.css);
+@import url(../blocks/navbar/__burger/navbar__burger.css);
+/* блок sidebar*/
+@import url(../blocks/sidebar/sidebar.css);
+/* блок profile-menu*/
+@import url(../blocks/profile-menu/profile-menu.css);
+
+/* блок lead*/
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__content/lead__content.css);
+@import url(../blocks/lead/__swiper/lead__swiper.css);
+@import url(../blocks/lead/__scroll/lead__scroll.css);
+@import url(../blocks/lead/__img/lead__img.css);
+@import url(../blocks/lead/__text-content/lead__text-content.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__button/lead__button.css);
+@import url(../blocks/lead/__offer/lead__offer.css);
+@import url(../blocks/preview/preview.css);
+
+/* Раздел catalog*/
+@import url(../blocks/catalog/catalog.css);
+@import url(../blocks/catalog/__cards/catalog__cards.css);
+/* блок card*/
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__link/card__link.css);
+@import url(../blocks/card/__number/card__number.css);
+@import url(../blocks/card/__image/card__image.css);
+@import url(../blocks/card/__quantity/card__quantity.css);
+@import url(../blocks/card/__title/card__title.css);
+@import url(../blocks/catalog/__heading/catalog__heading.css);
+@import url(../blocks/catalog/__title/catalog__title.css);
+@import url(../blocks/catalog/__subtitle/catalog__subtitle.css);
+@import url(../blocks/catalog/__button/catalog__button.css);
+
+/* Раздел advantages*/
+@import url(../blocks/advantages/advantages.css);
+@import url(../blocks/advantages/__promo/advantages__promo.css);
+@import url(../blocks/advantages/__image/advantages__image.css);
+@import url(../blocks/advantages/__text-content/advantages__text-content.css);
+@import url(../blocks/advantages/__subtitle/advantages__subtitle.css);
+@import url(../blocks/advantages/__features/advantages__features.css);
+/* блок feature*/
+@import url(../blocks/feature/feature.css);
+@import url(../blocks/feature/__img/feature__img.css);
+@import url(../blocks/feature/__title/feature__title.css);
+@import url(../blocks/feature/__subtitle/feature__subtitle.css);
+@import url(../blocks/feature/__icon/feature__icon.css);
+
+/* Раздел news*/
+@import url(../blocks/news/news.css);
+@import url(../blocks/news/__heading/news__heading.css);
+@import url(../blocks/news/__text-content/news__text-content.css);
+@import url(../blocks/news/__subtitle/news__subtitle.css);
+@import url(../blocks/news/__button/news__button.css);
+@import url(../blocks/news/__articles/news__articles.css);
+/* блок article*/
+@import url(../blocks/article/article.css);
+@import url(../blocks/article/__text-content/article__text-content.css);
+@import url(../blocks/article/__title/article__title.css);
+@import url(../blocks/article/__subtitle/article__subtitle.css);
+@import url(../blocks/article/__data/article__data.css);
+@import url(../blocks/article/__button/article__button.css);
+
+/* Раздел contacts*/
+@import url(../blocks/contacts/contacts.css);
+@import url(../blocks/contacts/__content/contacts__content.css);
+@import url(../blocks/contacts/__iphone/contacts__iphone.css);
+/* блок info*/
+@import url(../blocks/info/info.css);
+@import url(../blocks/info/__subtitle/info__subtitle.css);
+@import url(../blocks/info/__items/info__items.css);
+@import url(../blocks/info/__item/info__item.css);
+@import url(../blocks/info/__icon/info__icon.css);
+@import url(../blocks/info/__heading/info__heading.css);
+@import url(../blocks/info/__text/info__text.css);
+@import url(../blocks/info/__icon_social/info__icon_social.css);
+/* блок request*/
+@import url(../blocks/request/request.css);
+@import url(../blocks/request/__title/request__title.css);
+@import url(../blocks/request/__subtitle/request__subtitle.css);
+@import url(../blocks/request/__form/request__form.css);
+@import url(../blocks/request/__field/request__field.css);
+@import url(../blocks/request/__input/request__input.css);
+@import url(../blocks/request/__label/request__label.css);
+@import url(../blocks/request/__button/request__button.css);
+
+/* Раздел footer*/
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__columns/footer__columns.css);
+@import url(../blocks/footer/__column/_content/footer__column_content_logo.css);
+@import url(../blocks/footer/__column/_content/footer__column_content_catalog.css);
+@import url(../blocks/footer/__column/_content/footer__column_content_profile.css);
+@import url(../blocks/footer/__column/_content/footer__column_content_help.css);
+@import url(../blocks/footer/__column-heading/footer__column-heading.css);
+@import url(../blocks/footer/__column-links/footer__column-links.css);
+@import url(../blocks/footer/__column-links/_catalog/footer__column-links_catalog.css);
+@import url(../blocks/footer/__column-link/footer__column-link.css);
+@import url(../blocks/footer/__contacts/footer__contacts.css);
+@import url(../blocks/footer/__social/footer__social.css);
+
+/* блок logo*/
+@import url(../blocks/logo/_place/logo_place_footer.css);

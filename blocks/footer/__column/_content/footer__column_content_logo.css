@@ -1,0 +1,9 @@
+.footer__column_content_logo {
+    grid-area: logo;
+}
+
+@media all and (max-width:1023px) {
+    .footer__column_content_logo {
+        justify-self: center;
+    }
+}

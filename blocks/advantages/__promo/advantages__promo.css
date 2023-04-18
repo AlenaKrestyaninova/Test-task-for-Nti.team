@@ -1,0 +1,36 @@
+.advantages__promo {
+    display: flex;
+    flex-direction: row;
+    padding-left: 189px;
+    padding-bottom: 48px;
+    background: url(../../../images/advantages__bgi.svg) no-repeat 65px #F2F2F2;
+    overflow: hidden;
+}
+
+/* Медиа-запрос для ширины 1024px*/
+@media screen and (max-width:1439px) {
+    .advantages__promo {
+        padding-left: 88px;
+    }
+}
+
+/* Медиа-запрос для ширины 768px*/
+@media all and (max-width:1023px) {
+    .advantages__promo {
+        max-width: calc(100% - 2*48px);
+        margin: 0 auto;
+        padding-bottom: 6px;
+        padding-left: 0;
+        background-size: contain;
+        background-position: 14px 222px;
+    }
+}
+
+/* Медиа-запрос для ширины 320px*/
+@media all and (max-width:767px) {
+    .advantages__promo {
+        max-width: calc(100% - 2*15px);
+        flex-direction: column-reverse;
+        margin-bottom: -15px;
+    }
+}

@@ -1,0 +1,26 @@
+.article__button {
+    position: absolute;
+    top: 228px;
+    right: 28px;
+    width: 65px;
+    height: 65px;
+    background: #292D32;
+    border: 12px solid #FFFFFF;
+    color: white;
+    border-radius: 50%;
+    font-family: 'Circe';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18.7429px;
+    line-height: 1px;
+    padding: 0;
+}
+
+@media all and (max-width:1023px) {
+    .article__button  {
+        width: 54px;
+        height: 54px;
+        top: 162px;
+        right: 32px;
+    }
+}

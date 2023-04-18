@@ -1,0 +1,14 @@
+.info__heading {
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.33;
+    color: #838383;
+}
+
+@media all and (max-width:767px) {
+    .info__heading {
+        font-size: 15px;
+    }
+}

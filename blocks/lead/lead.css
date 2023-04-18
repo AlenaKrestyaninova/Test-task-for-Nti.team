@@ -1,0 +1,8 @@
+.lead {
+    background-color: #F2F2F2;
+}
+
+.lead__swiper-container {
+    display: flex;
+    flex-direction: row;
+}

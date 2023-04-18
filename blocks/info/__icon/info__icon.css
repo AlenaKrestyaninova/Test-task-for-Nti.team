@@ -1,0 +1,6 @@
+@media all and (max-width:767px) {
+    .info__icon {
+        width: 18px;
+        height: 18px;
+    }
+}

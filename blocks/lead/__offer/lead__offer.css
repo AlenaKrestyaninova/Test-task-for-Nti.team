@@ -1,0 +1,45 @@
+.lead__offer {
+    background: #F9F9F9;
+    min-width: 509px;
+    height: 683px;
+    position: relative;
+    width: 1151px;
+}
+
+.lead__offer:after {
+    content: '';
+    background: no-repeat url(../../../images/lead__second-slide.png) top -245px left -190px;
+    background-size: 1100px 725px;
+    opacity: .15;
+    z-index: 1;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+.lead__offer-heading {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 130%;
+    margin-top: 321px;
+    margin-bottom: 0;
+    margin-left: 40px;
+    max-width: 181px;
+}
+
+.lead__offer.swiper-slide-active .lead__offer-heading {
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 1;
+}
+
+@media all and (max-width:767px) {
+    .lead__offer.swiper-slide-active .lead__offer-heading {
+        font-size: 30px;
+        line-height: 35px;
+    }
+}

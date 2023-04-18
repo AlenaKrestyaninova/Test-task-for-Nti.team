@@ -1,0 +1,9 @@
+.lead__text-content {
+    margin-top: 179px;
+}
+
+@media all and (max-width:767px) {
+    .lead__text-content {
+        margin-top: 80px;
+    }
+}

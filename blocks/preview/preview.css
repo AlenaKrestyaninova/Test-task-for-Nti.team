@@ -1,0 +1,22 @@
+.preview {
+    background: url(../../images/lead__preview.png) no-repeat right #F9F9F9;
+    min-height: 196px;
+    display: none;
+    align-items: center;
+    margin: 0 15px 15px;
+    margin-top: 0;
+}
+
+.preview-heading {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    margin: 0 ;
+    max-width: 136px;
+}
+
+@media all and (max-width:767px) {
+    .preview {
+        display: flex;
+    }
+}

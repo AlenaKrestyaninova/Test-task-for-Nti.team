@@ -1,0 +1,12 @@
+.advantages {
+    background-color: #F2F2F2;
+    padding-top: 95px;
+    padding-bottom: 46px;
+}
+
+@media all and (max-width:767px) {
+    .advantages {
+        padding-top: 101px;
+        padding-bottom: 120px;
+    }
+}

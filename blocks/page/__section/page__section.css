@@ -1,0 +1,25 @@
+.page__section {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* Медиа-запрос для ширины 1024px*/
+@media all and (max-width:1439px) {
+    .page__section {
+        max-width: calc(100% - 2*88px);
+    }
+}
+
+/* Медиа-запрос для ширины 768px*/
+@media all and (max-width:1023px) {
+    .page__section {
+        max-width: calc(100% - 2*48px);
+    }
+}
+
+/* Медиа-запрос для ширины 320px*/
+@media all and (max-width:767px) {
+    .page__section {
+        max-width: calc(100% - 2*15px);
+    }
+}

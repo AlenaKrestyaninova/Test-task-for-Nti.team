@@ -1,0 +1,26 @@
+.contacts__iphone {
+    position: absolute;
+    top: 162px;
+    left: 47%;
+    transform: rotate(9.83deg) translate(-50%, 0);
+    width: 200.93px;
+    height: 564.13px;
+}
+
+@media all and (max-width:1279px) {
+    .contacts__iphone {
+        width: 86.92px;
+        height: 244.05px;
+        left: 44%;
+        top: 411px;
+    }    
+}
+
+@media all and (max-width:767px) {
+    .contacts__iphone {
+        right: 68px;
+        left: auto;
+        transform: none;
+        transform: rotate(24.19deg) translate(0, 0);
+    }
+}

@@ -1,0 +1,8 @@
+@media all and (max-width:767px) {
+    .lead__img {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 327px;
+        align-self: center;
+    }
+}

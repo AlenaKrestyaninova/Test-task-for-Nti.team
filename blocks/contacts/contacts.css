@@ -1,0 +1,13 @@
+.contacts {
+    padding-bottom: 180px;
+    background-image: url(../../images/contacts__bgi.png), linear-gradient(0deg, #EEEEEE 0%, #EEEEEE 66%, rgba(255,255,255,1) 66%, rgba(255,255,255,1) 100%);
+    background-repeat: no-repeat;
+    background-position: 0 530px, 0;
+}
+
+@media all and (max-width:767px) {
+    .contacts {
+        padding-bottom: 0;
+        background: none;
+    }
+}

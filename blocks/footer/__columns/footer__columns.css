@@ -1,0 +1,24 @@
+.footer__columns {
+    display: grid;
+    grid-template-columns: 21.57% 28.15% 26.78% 23.5%;
+    grid-template-areas: "logo catalog profile help";
+    box-sizing: border-box;
+    padding-bottom: 60px;
+}
+
+/* Медиа-запрос для ширины 768px*/
+@media all and (max-width:1023px) {
+    .footer__columns {
+        grid-template-areas: "logo logo"
+        "help profile"
+        "catalog catalog";
+        grid-template-columns: 52.77% 47.23%;
+        row-gap: 29px;
+        padding-bottom: 30px;
+    }
+}
+
+/* Медиа-запрос для ширины 320px*/
+@media all and (max-width:767px) {
+    
+}

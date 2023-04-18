@@ -1,0 +1,21 @@
+.footer__social {
+    width: 38px;
+    height: 38px;
+    display: block;
+}
+
+.footer__social_facebook {
+    background-image: url(../../../images/info__fb.svg);
+}
+
+.footer__social_whatsup {
+    background-image: url(../../../images/info__wa.svg);
+}
+
+@media all and (max-width:767px) {
+    .footer__social {
+        width: 30px;
+        height: 30px;
+        background-size: contain;
+    }
+}

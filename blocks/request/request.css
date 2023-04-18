@@ -1,0 +1,17 @@
+.request {
+    background-color: #292D32;
+    padding: 100px 137px 103px 129px;
+    color: #FFFFFF;
+}
+
+@media all and (max-width:1279px) {
+    .request {
+        padding: 101px 30px 60px;
+    }
+}
+
+@media all and (max-width:767px) {
+    .request {
+        padding: 60px 30px;
+    }
+}

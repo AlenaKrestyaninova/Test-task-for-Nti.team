@@ -1,0 +1,15 @@
+.subtitle {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #838383;
+    margin: 0;
+}
+
+@media all and (max-width:767px) {
+    .subtitle {
+        font-size: 15px;
+        line-height: 133.69%;
+    }
+}

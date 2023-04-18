@@ -1,0 +1,17 @@
+.feature__title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    margin-top: 25px;
+    margin-bottom: 13px;
+}
+
+@media all and (max-width:767px) {
+    .feature__title {
+        font-size: 18px;
+        line-height: 23px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        max-width: 80%;
+    }
+}

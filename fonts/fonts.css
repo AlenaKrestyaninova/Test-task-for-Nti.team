@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style:  normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(./Roboto-Regular.woff2) format("woff2"),
+        url(./Roboto-Regular.woff) format("woff");
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style:  normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(./Roboto-Light.woff2) format("woff2"),
+      url(./Roboto-Light.woff) format("woff");
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style:  normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(./Roboto-Medium.woff2) format("woff2"),
+      url(./Roboto-Medium.woff) format("woff");
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style:  normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(./Roboto-Bold.woff2) format("woff2"),
+      url(./Roboto-Bold.woff) format("woff");
+}
+
+@font-face {
+font-family: 'Circe';
+font-style:  normal;
+font-weight: 700;
+font-display: swap;
+src: url(./Circe-Regular.woff) format("woff"),
+    url(./Circe-Regular.ttf) format("ttf");
+}
+
+@font-face {
+  font-family: 'Euclid Circular A';
+  font-style:  normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(./EuclidCircularA-Medium.woff2) format("woff2"),
+    url(./EuclidCircularA-Medium.woff) format("woff");
+}
+
+@font-face {
+  font-family: 'Euclid Circular A';
+  font-style:  normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(./EuclidCircularA-Light.woff2) format("woff2"),
+    url(./EuclidCircularA-Light.woff) format("woff");
+}

@@ -1,0 +1,16 @@
+@media screen and (max-width:1439px) {
+    .advantages__image {
+        width: 70%;
+        height: 70%;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .advantages__image {
+        align-self: flex-end;
+        position: relative;
+        right: -46px;
+        top: -55px;
+        width: 345px;
+    }
+}

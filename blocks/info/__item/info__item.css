@@ -1,0 +1,12 @@
+.info__item {
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
+    align-items: flex-start;
+}
+
+@media all and (max-width:767px) {
+    .info__item {
+        gap: 8px;
+    }
+}

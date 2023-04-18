@@ -1,0 +1,14 @@
+.request__form {
+    margin-top: 66px;
+    display: flex;
+    flex-direction: column;
+    gap: 53px;
+    box-sizing: border-box;
+}
+
+@media all and (max-width:767px) {
+    .request__form {
+        margin-top: 50px;
+        gap: 40px;
+    }
+}

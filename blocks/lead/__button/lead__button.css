@@ -1,0 +1,9 @@
+.lead__button {
+    margin-top: 60px;
+}
+
+@media all and (max-width:767px) {
+    .lead__button {
+        margin-top: 28px;
+    }    
+}

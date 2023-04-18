@@ -1,0 +1,20 @@
+.info__icon_social {
+    width: 38px;
+    height: 38px;
+}
+
+.info__icon_facebook {
+    background-image: url(../../../images/info__fb.svg);
+}
+
+.info__icon_whatsup {
+    background-image: url(../../../images/info__wa.svg);
+}
+
+@media all and (max-width:767px) {
+    .info__icon_social {
+        width: 26px;
+        height: 26px;
+        background-size: contain;
+    }
+}

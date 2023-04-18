@@ -1,0 +1,25 @@
+.request__button {
+    background-color: transparent;
+    padding: 0;
+    width: 136px;
+    border: none;
+}
+
+.request__button_disabled {
+    opacity: .5;
+}
+
+@media all and (max-width:767px) {
+    .request__label {
+        font-size: 15px;
+        line-height: 1.33;
+        left: 23px;
+        top: -10px;
+    }
+    .request__input_textarea {
+        min-height: 80px;
+    }
+    .request__button {
+        width: 126px;
+    }
+}

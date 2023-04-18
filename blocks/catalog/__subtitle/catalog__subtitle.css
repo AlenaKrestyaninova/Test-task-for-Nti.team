@@ -1,0 +1,12 @@
+.catalog__subtitle {
+    margin-top: 29px;
+    margin-bottom: 0;
+    max-width: 372px;
+}
+
+@media screen and (max-width:767px) {
+    .catalog__subtitle {
+        margin-top: 20px;
+        line-height: 150%;
+    }
+}

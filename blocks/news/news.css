@@ -1,0 +1,13 @@
+.news {
+    margin-top: 180px;
+    padding-bottom: 180px;
+    box-sizing: border-box;
+}
+
+/* Медиа-запрос для ширины 768px*/
+@media all and (max-width:1023px) {
+    .news {
+        margin-top: 120px;
+        padding-bottom: 120px;
+    }
+}

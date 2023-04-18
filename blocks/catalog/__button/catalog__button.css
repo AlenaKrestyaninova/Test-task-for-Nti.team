@@ -1,0 +1,10 @@
+.catalog__button {
+    margin-top: 46px;
+}
+
+@media screen and (max-width:767px) {
+    .catalog__button {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+}

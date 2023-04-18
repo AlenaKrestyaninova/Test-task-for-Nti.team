@@ -1,0 +1,12 @@
+.logo_place_header {
+    width: 70px;
+    height: 70px;
+}
+
+/* Медиа-запрос для ширины 768px*/
+@media screen and (max-width:1023px) {
+    .logo_place_header {
+        width: 60px;
+        height: 60px;
+    }
+}

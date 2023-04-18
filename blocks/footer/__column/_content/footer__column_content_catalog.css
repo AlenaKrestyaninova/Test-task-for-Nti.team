@@ -1,0 +1,6 @@
+.footer__column_content_catalog {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    grid-area: catalog;
+}

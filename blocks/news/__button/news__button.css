@@ -1,0 +1,10 @@
+.news__button  {
+    flex-direction: row-reverse;
+}
+
+/* Медиа-запрос для ширины 768px*/
+@media screen and (max-width:1023px) {
+    .news__button  {
+        flex-direction: row;
+    }
+}

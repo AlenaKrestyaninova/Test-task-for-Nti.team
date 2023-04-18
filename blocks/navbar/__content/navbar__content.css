@@ -1,0 +1,16 @@
+.navbar__content {
+    margin-left: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    gap: 50px;
+}
+
+@media screen and (max-width:1023px) {
+    .navbar__content {
+        justify-content: flex-end;
+        gap: 30px;
+        margin-left: 0;
+    }
+}

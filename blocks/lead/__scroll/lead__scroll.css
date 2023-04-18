@@ -1,0 +1,32 @@
+.lead__scroll {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 25px;
+    align-items: center;
+    text-decoration: none;
+    margin-right: 10%;
+    margin-bottom: 100px;
+    align-self: flex-end;
+}
+
+.lead__scroll-text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #838383;
+    writing-mode: vertical-lr;
+    transform: scale(-1);
+}
+
+.lead__scroll-img {
+    width: 25px;
+    height: 38px;
+}
+
+@media screen and (max-width:767px) {
+    .lead__scroll {
+        display: none;
+    }
+}

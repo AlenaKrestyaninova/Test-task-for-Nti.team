@@ -1,0 +1,11 @@
+.feature__img {
+    width: 36px;
+    height: 36px;
+}
+
+@media screen and (max-width:767px) {
+    .feature__img {
+        width: 30px;
+        height: 30px;
+    }
+}

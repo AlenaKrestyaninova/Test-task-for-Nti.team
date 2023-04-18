@@ -1,0 +1,50 @@
+.request__input {
+    display: block;
+    width: calc(100% - 2*20px);
+    background-color: transparent;
+    border: 1.5px solid rgba(242, 242, 242, 0.5);
+    border-radius: 20px;
+    min-height: 59px;
+    padding: 0 20px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: inherit; 
+}
+
+.request__input_textarea {
+    min-height: 145px;
+    padding-top: 10px;
+}
+
+.request__input_type_error {
+    border: 1px solid #FF0000;
+}
+
+.request__input-error {
+    display: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FF0000;
+    padding-top: 5px;
+    min-height: 35px;
+    margin-bottom: -35px;
+}
+
+.request__input-error_active {
+    display: block;
+}
+
+@media all and (max-width:767px) {
+    .request__input {
+        border: 1px solid rgba(242, 242, 242, 0.5);
+        border-radius: 10px;
+        min-height: 40px;
+        font-size: 18px;
+    }
+    .request__input_textarea {
+        height: 75px;
+    }
+}
